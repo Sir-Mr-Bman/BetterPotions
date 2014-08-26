@@ -15,7 +15,7 @@ public class Applier {
 	 * @param amp
 	 * @param amb
 	 */
-	public final void appPotion(Player p, PotionEffectType type, int dur, int amp, boolean amb) {
+	public static void appPotion(Player p, PotionEffectType type, int dur, int amp, boolean amb) {
 		p.addPotionEffect(new PotionEffect(type, dur, amp, amb));
 	}
 	

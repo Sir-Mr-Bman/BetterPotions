@@ -1,0 +1,4 @@
+name: BetterPotions
+version: 1
+main: me.bman.bpotion.Header
+description: Add special potion effects on player join.
